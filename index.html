@@ -8,12 +8,34 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body{
+            /* background-color:rgba(34, 101, 153, 0.253) ;
+            background-image: linear-gradient(white 2px, transparent 2px),
+            linear-gradient(90deg, white 2px, transparent 2px),
+            linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+            background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+            background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px; */
 
-<style>
-    .container-list{
-        padding: 2em;
-    }
-</style>
+            background:
+            radial-gradient(black 15%, transparent 16%) 0 0,
+            radial-gradient(black 15%, transparent 16%) 8px 8px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+            background-color:#282828;
+            background-size:16px 16px;
+        }
+        .container-list{
+            padding: 4em;
+        }
+        .list-group{
+            padding: 2em;
+        }
+        h3,h4,a {
+            color: aliceblue;
+        }
+    </style>
 
 </head>
 <body>
@@ -22,13 +44,9 @@
           <a class="py-2" href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
           </a>
-          <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
-          <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
-          <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
-          <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
-          <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-          <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
-          <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Home</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Github</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Contact</a>
         </div>
       </nav>
 <div class="container">
@@ -41,7 +59,7 @@
       </div>
     </div>
 <div class="container-list">
-<h3>Demonstration</h3>
+<h3>Demo</h3>
     <div class="list-group">
         <!-- <a href="./me" class="list-group-item list-group-item-action">About Me</a>
         <a href="./documentation" class="list-group-item list-group-item-action">Task-Management-System | Frontend Documentation</a>
