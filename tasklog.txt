@@ -1,10 +1,4 @@
-Started execution: 19-09-2020 17:45:06.65 
-Completed at 19-09-2020 17:45:15.37 
-___________________________________ 
-Started execution: 19-09-2020 21:06:53.24 
-Completed at 19-09-2020 21:07:01.45 
-___________________________________ 
-Started execution: 21-09-2020 16:32:07.20 
+## Started execution: 21-09-2020 16:37:43.30 
 M	sync_script.bat
 M	tasklog.txt
 Your branch is up to date with 'origin/master'.
