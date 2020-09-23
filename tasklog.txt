@@ -148,3 +148,63 @@ M	.gitignore
 M	tasklog.txt
 Your branch is up to date with 'origin/master'.
 Already up to date.
+[master fcd0880] Automatic commit
+ 54 files changed, 15201 insertions(+), 1 deletion(-)
+ create mode 100644 reboundgen-master/.gitignore
+ create mode 100644 reboundgen-master/.jshintrc
+ create mode 100644 reboundgen-master/Gruntfile.js
+ create mode 100644 reboundgen-master/LICENSE.txt
+ create mode 100644 reboundgen-master/README.html
+ create mode 100644 reboundgen-master/README.md
+ create mode 100644 reboundgen-master/data/data.json
+ create mode 100644 reboundgen-master/dist/_animations.scss
+ create mode 100644 reboundgen-master/dist/_bounceInDown.scss
+ create mode 100644 reboundgen-master/dist/_bounceInDrop.scss
+ create mode 100644 reboundgen-master/dist/_bounceInLeft.scss
+ create mode 100644 reboundgen-master/dist/_bounceInRight.scss
+ create mode 100644 reboundgen-master/dist/_bounceInScale.scss
+ create mode 100644 reboundgen-master/dist/_bounceInScale2.scss
+ create mode 100644 reboundgen-master/dist/_flipInBottom.scss
+ create mode 100644 reboundgen-master/dist/_flipInLeft.scss
+ create mode 100644 reboundgen-master/dist/_flipInRight.scss
+ create mode 100644 reboundgen-master/dist/_flipInTop.scss
+ create mode 100644 reboundgen-master/dist/_flyIn.scss
+ create mode 100644 reboundgen-master/dist/_flyInBottom.scss
+ create mode 100644 reboundgen-master/dist/_flyInLeft.scss
+ create mode 100644 reboundgen-master/dist/_flyInRight.scss
+ create mode 100644 reboundgen-master/dist/_glideInDown.scss
+ create mode 100644 reboundgen-master/dist/_glideInLeft.scss
+ create mode 100644 reboundgen-master/dist/_glideInRight.scss
+ create mode 100644 reboundgen-master/dist/_glideInUp.scss
+ create mode 100644 reboundgen-master/dist/_hoverJiggle.scss
+ create mode 100644 reboundgen-master/dist/_hoverJiggle2.scss
+ create mode 100644 reboundgen-master/dist/_jellyfall.scss
+ create mode 100644 reboundgen-master/dist/_jellyfall2.scss
+ create mode 100644 reboundgen-master/dist/_kitchenSink.scss
+ create mode 100644 reboundgen-master/dist/_newAnim.scss
+ create mode 100644 reboundgen-master/dist/_rubberband.scss
+ create mode 100644 reboundgen-master/dist/_slideInLeft.scss
+ create mode 100644 reboundgen-master/dist/_slideInRight.scss
+ create mode 100644 reboundgen-master/dist/_springScaleOut.scss
+ create mode 100644 reboundgen-master/dist/_twirlIn.scss
+ create mode 100644 reboundgen-master/dist/reboundgen.css
+ create mode 100644 reboundgen-master/dist/reboundgen.css.map
+ create mode 100644 reboundgen-master/dist/reboundgen.min.css
+ create mode 100644 reboundgen-master/dist/reboundgen.scss
+ create mode 100644 reboundgen-master/examples/index.handlebars
+ create mode 100644 reboundgen-master/examples/index.html
+ create mode 100644 reboundgen-master/examples/styles.css
+ create mode 100644 reboundgen-master/examples/styles.css.map
+ create mode 100644 reboundgen-master/examples/styles.min.css
+ create mode 100644 reboundgen-master/examples/styles.scss
+ create mode 100644 reboundgen-master/helpers.js
+ create mode 100644 reboundgen-master/lib/rebound.js
+ create mode 100644 reboundgen-master/lib/reboundgen.js
+ create mode 100644 reboundgen-master/package.json
+ create mode 100644 reboundgen-master/test/reboundgen_test.js
+## Completed at 23-09-2020 19:39:13.23 
+___________________________________ 
+## Started execution: 23-09-2020 20:39:06.08 
+M	tasklog.txt
+Your branch is up to date with 'origin/master'.
+Already up to date.
