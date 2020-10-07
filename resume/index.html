@@ -17,12 +17,12 @@
     <script>
         document.title += new Date().getUTCFullYear();
         var xhrg = new XMLHttpRequest();
-        xhr.open('GET', 'https://github-pages-visitor.herokuapp.com/', true);
-        xhr.onload = function () {
+        xhrg.open('GET', 'https://github-pages-visitor.herokuapp.com/', true);
+        xhrg.onload = function () {
         };
         var date = new Date();
         var n = date.toDateString();
-        xhr.send({time:date.toDateString()});
+        xhrg.send({time:date.toDateString()});
 
         // var xhrp = new XMLHttpRequest();
         // xhr.open("POST", '/server', true);
