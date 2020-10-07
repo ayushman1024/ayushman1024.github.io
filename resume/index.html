@@ -16,6 +16,26 @@
     </style>
     <script>
         document.title += new Date().getUTCFullYear();
+        var xhrg = new XMLHttpRequest();
+        xhr.open('GET', 'https://github-pages-visitor.herokuapp.com/', true);
+        xhr.onload = function () {
+        };
+        var date = new Date();
+        var n = date.toDateString();
+        xhr.send({time:date.toDateString()});
+
+        // var xhrp = new XMLHttpRequest();
+        // xhr.open("POST", '/server', true);
+        // //Send the proper header information along with the request
+        // xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        // xhr.onreadystatechange = function() { // Call a function when the state changes.
+        //     if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+        //         // Request finished. Do processing here.
+        //     }
+        // }
+        // xhr.send("foo=bar&lorem=ipsum");
+        // xhr.send(new Int8Array()); 
+        // xhr.send(document);
     </script>
 </head>
 <body>
