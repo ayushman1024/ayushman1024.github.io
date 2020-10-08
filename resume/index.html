@@ -15,7 +15,7 @@
         document.title += new Date().getUTCFullYear();
         var date = new Date();
         $.post('https://github-pages-visitor.herokuapp.com/counter/',
-       {time:date.toDateString(),page:"resume"},
+       {time:date.toString(),page:"resume"},
        function(data, status, xhr) {
                 alert('status: ' + status + ', data: ' + data.responseData);
             },'json');
