@@ -10,14 +10,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
         body{
-            /* background-color:rgba(34, 101, 153, 0.253) ;
-            background-image: linear-gradient(white 2px, transparent 2px),
-            linear-gradient(90deg, white 2px, transparent 2px),
-            linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
-            background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
-            background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px; */
-
             background:
             radial-gradient(black 15%, transparent 16%) 0 0,
             radial-gradient(black 15%, transparent 16%) 8px 8px,
@@ -36,7 +28,14 @@
             color: aliceblue;
         }
     </style>
-
+    <script>
+      var date = new Date();
+      $.post('https://github-pages-visitor.herokuapp.com/counter/',
+     {page:"homepage"},
+     function(data, status, xhr) {
+          alert('status: ' + status + ', data: ' + data.responseData);
+          },'json');
+  </script>
 </head>
 <body>
     <nav class="site-header sticky-top py-1">

@@ -13,20 +13,14 @@
     </style>
     <script>
         document.title += new Date().getUTCFullYear();
+    </script>
+    <script>
         var date = new Date();
         $.post('https://github-pages-visitor.herokuapp.com/counter/',
        {page:"resume"},
        function(data, status, xhr) {
-                alert('status: ' + status + ', data: ' + data.responseData);
+            alert('status: ' + status + ', data: ' + data.responseData);
             },'json');
-
-        // var xhr = new XMLHttpRequest();
-        // xhr.responseType = 'json';
-        // xhr.open('GET', 'https://github-pages-visitor.herokuapp.com/counter/', true);
-        // xhr.onload = function () {
-        // };
-        // var date = new Date();
-        // xhr.send({time:date.toDateString(),page:"resume"});
     </script>
 </head>
 <body>
