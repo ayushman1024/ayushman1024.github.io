@@ -21,6 +21,7 @@
         xhr.open('GET', 'https://github-pages-visitor.herokuapp.com/counter/', true);
         xhr.onload = function () {
         };
+        var date = new Date();
         xhr.send({time:date.toDateString(),page:"resume"});
     </script>
 </head>
