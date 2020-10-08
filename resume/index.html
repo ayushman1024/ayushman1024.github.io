@@ -7,6 +7,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js" integrity="sha512-4ze/a9/4jqu+tX9dfOqJYSvyYd5M6qum/3HpCLr+/Jqf0whc37VUbkpNGHR7/8pSnCFw47T1fmIpwBV7UySh3g==" crossorigin="anonymous"></script>
     <style>
        #pdfview{
@@ -16,6 +17,14 @@
     </style>
     <script>
         document.title += new Date().getUTCFullYear();
+
+        $.post('https://github-pages-visitor.herokuapp.com/counter/',
+       {time:date.toDateString(),page:"resume"},
+       function(data, status, xhr) {   // success callback function
+                alert('status: ' + status + ', data: ' + data.responseData);
+            },
+       'json');
+
         var xhr = new XMLHttpRequest();
         xhr.responseType = 'json';
         xhr.open('GET', 'https://github-pages-visitor.herokuapp.com/counter/', true);
