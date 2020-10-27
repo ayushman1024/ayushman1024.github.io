@@ -2229,3 +2229,12 @@ M	me/index.html
 M	tasklog.txt
 Your branch is up to date with 'origin/master'.
 Already up to date.
+[master 2a8a29e] Automatic commit
+ 3 files changed, 23 insertions(+)
+ create mode 100644 me/.vscode/tasks.json
+## Completed at 27-10-2020 14:06:34.77 
+___________________________________ 
+## Started execution: 27-10-2020 22:49:34.76 
+M	tasklog.txt
+Your branch is up to date with 'origin/master'.
+Already up to date.
